@@ -1,0 +1,26 @@
+Page({
+  data:{
+    dreamCode:'',
+    dreamResult:[]
+  },
+  onLoad:function(){
+    self=this
+  },
+  //调用外部API，获取健康提示
+  jiankang:function(){
+wx.request({
+  url:'http://api.tianapi.com/txapi/healthtip/index',
+  method:'GET',
+  data:{
+key:'e5d3ac617819b7a196e1f4c2780153c0'
+  },
+  success:function(res){
+    console.log(res.data)
+    self.setData({
+      dreamCode:res.data.code,
+      dreamResult:res.data.newslist[0].content
+    })
+  }
+})
+  }
+})

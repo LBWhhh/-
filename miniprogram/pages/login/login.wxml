@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class="container"> 
+ <view class="login-icon"> 
+ <image class="login-img" src="/images/beijing.jpg"></image> 
+ </view> 
+</view>
+<view class="inputView">
+  <image class="nameImage" src="/images/name.png"></image> 
+  <label class="loginLab">account</label>
+<input bindinput='inputName' maxlength="15" title="账号" placeholder="请输入账号"   class="inputText" /></view>
+
+<view class="inputView">
+  <image class="keyImage" src="/images/key.png"></image> 
+  <label class="loginLab">password</label> 
+<input placeholder="请输入密码" maxlength="15"   bindinput="inputPassword" type="{{inputType}}" class="inputText" ></input>
+        <!-- 小眼睛图标 -->
+        <image src="/images/see.png" bindtap="seeTap" wx:if="{{show_pass}}"   class="resarch_image"></image>
+        <image src="/images/nosee.png" bindtap="seeTap" wx:else   class="resarch_image"></image>
+</view>
+<view class="loginBtnView"> 
+<button bindtap='login'    class="loginBtn" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}"
+class="l" >login</button>
+<button bindtap='register' type="success" class="l">register</button>
+</view>

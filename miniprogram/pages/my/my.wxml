@@ -1,0 +1,28 @@
+<!-- pages/user/user.wxml -->
+<view class="user_header" >
+	<image src="/images/bg.jpg" class="bg" ></image>
+  <view class="header_box">
+  </view>
+</view>
+<view class="user_main">
+  <view class="main_box">
+    <view class="box_item">
+      <image src="/images/jiankang.png" bindtap="jiankang"></image>
+      <text>健康小提示</text>
+    </view>
+    <view class="box_item">
+      <image src="/images/jieshao.png" bindtap="jieshao"></image>
+      <text>关于浴室</text>
+    </view>
+  </view>
+  <view class="main_box">
+    <view class="box_item">
+      <image src="/images/banben.png" bindtap="banben"></image>
+      <text>版本</text>
+    </view>
+    <view class="box_item">
+      <image src="/images/contact.png" bindtap="room"></image>
+      <text>联系我们</text>
+    </view>
+  </view>
+</view>

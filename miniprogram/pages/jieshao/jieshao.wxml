@@ -1,0 +1,17 @@
+<swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)"
+ indicator-active-color="#fff" indicator-dots circular autoplay>
+ <swiper-item>
+ <image src="/images/yushi1.jpg"></image>
+ </swiper-item>
+ <swiper-item>
+ <image src="/images/yushi2.jpeg"></image>
+ </swiper-item>
+ <swiper-item>
+ <image src="/images/yushi3.jpg"></image>
+ </swiper-item>
+ </swiper>
+ <view class="inputView">
+ <textarea bindinput='inputyijian'  title="意见" placeholder="请提出您的宝贵意见"   class="inputText"></textarea> 
+ </view>
+ <button bindtap="tijiao" class="tijiao">提交</button>
+

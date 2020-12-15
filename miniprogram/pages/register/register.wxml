@@ -1,0 +1,15 @@
+<view class="inputView">
+  <image class="nameImage" src="/images/name.png"></image> 
+  <label class="loginLab">account</label>
+<input   class="inputText"  bindinput='inputName' maxlength="15" title="账号" autofocus placeholder="请输入账号，不超过15位" />
+</view>
+
+<view class="inputView">
+  <image class="keyImage" src="/images/key.png"></image> 
+  <label class="loginLab">password</label> 
+<input  bindinput='inputPassword' maxlength="15" title="密码" autofocus placeholder="请输入密码，不超过15位"   class="inputText"   />
+</view>
+<view class="loginBtnView">    
+<button bindtap='register' type="success"   class="loginBtn"  size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}">register</button>
+</view>
+<image src="/images/hemin.jpeg" class="hemin"></image>

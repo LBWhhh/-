@@ -1,0 +1,3 @@
+<image class="background" src="/images/beijing3.jpeg"></image>
+<button bindtap="jiankang" class="jiankang">获取健康提示</button>
+<view wx:for="{{dreamResult}}" class="tishi">{{dreamResult}}</view>

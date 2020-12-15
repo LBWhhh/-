@@ -1,0 +1,64 @@
+/**测评.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+.submit-btn{
+  background-color: #07C160;
+  margin: 5px 0;
+}
+.showform{
+  min-height: 200rpx;
+  background-color: #FADBDB;
+  padding: 15rpx;
+}
+
+
+.content-info-slide{
+  height:400rpx;
+  margin-bottom: 20px;
+
+}
+.content-info-slide image{
+  width: 100%;
+  height: 100%;
+}
+.inputText { 
+  flex: block; 
+  float: left; 
+  text-align: left; 
+  margin-left:5px;
+ 
+  margin-top: 11px;
+  color: #cccccc; 
+  font-size: 14px;
+
+ } 
+ .inputView { 
+  border-radius:10px;
+  height:600rpx;
+   border:1px solid #999999;
+   margin-left:8px;
+   margin-right:8px;
+ } 
+ .tijiao{
+border:1px solid#70bcf6!important;
+border-radius:10px;
+background-color:white;
+margin-top:10px;
+font-family:STXinwei;
+font-size:50rpx!important;
+height:100rpx
+ }

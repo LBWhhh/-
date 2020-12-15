@@ -1,0 +1,21 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size:100% 100%;
+  z-index: -1;
+}
+.banben1{
+  font-family:Chiller;
+  font-size:100rpx;
+  margin-top:300rpx;
+ display:flex;
+  justify-content:center;
+}
+.banben2{
+  font-family:YouYuan;
+  font-size:100rpx;
+  margin-top:150rpx;
+  display:flex;
+  justify-content:center
+}

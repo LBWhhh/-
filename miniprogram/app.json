@@ -1,0 +1,40 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/login/login",
+    "pages/myAppointment/myAppointment",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/my/room/room",
+    "pages/jieshao/jieshao",
+    "pages/mima/mima",
+    "pages/wifi_station/wifi_station",
+    "pages/wifi_station/tianqi/tianqi"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#B0C4DE",
+    "navigationBarTitleText": "予你四季如春的温暖",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "预约",
+        "iconPath": "images/reserve1.png",
+        "selectedIconPath": "images/reserve2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/user1.png",
+        "selectedIconPath": "images/user2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

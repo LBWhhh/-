@@ -1,0 +1,73 @@
+<image class="background" src="/images/index.jpg"></image>
+<view class="container">
+<view class="number">NO.1</view>
+<button bindtap="duandaoduan" class="duandaoduan">查看温度</button>
+<view class="container1">
+<button bindtap="location1" class="location">reserve</button>
+<button bindtap="cancel1" class="cancel" >cancel</button>
+</view>
+<view wx:for="{{location1}}" class="line">当前在排人数：{{item.location1}}</view>
+</view>
+
+
+<view class="container">
+<view class="number">NO.2</view>
+<button bindtap="duandaoduan" class="duandaoduan">查看温度</button>
+<view class="container1">
+<button bindtap="location2" class="location">reserve</button>
+<button bindtap="cancel2" class="cancel" >cancel</button>
+</view>
+<view wx:for="{{location2}}" class="line">当前在排人数：{{item.location2}}</view>
+</view>
+
+
+<view class="container">
+<view class="number">NO.3</view>
+<button bindtap="duandaoduan" class="duandaoduan">查看温度</button>
+<view class="container1">
+<button bindtap="location3" class="location">reserve</button>
+<button bindtap="cancel3" class="cancel" >cancel</button>
+</view>
+<view wx:for="{{location3}}" class="line">当前在排人数：{{item.location3}}</view>
+</view>
+
+
+<view class="container">
+<view class="number">NO.4</view>
+<button bindtap="duandaoduan" class="duandaoduan">查看温度</button>
+<view class="container1">
+<button bindtap="location4" class="location">reserve</button>
+<button bindtap="cancel4" class="cancel" >cancel</button>
+</view>
+<view wx:for="{{location4}}" class="line">当前在排人数：{{item.location4}}</view>
+</view>
+
+
+<view class="container">
+<view class="number">NO.5</view>
+<button bindtap="duandaoduan" class="duandaoduan">查看温度</button>
+<view class="container1">
+<button bindtap="location5" class="location">reserve</button>
+<button bindtap="cancel5" class="cancel" >cancel</button>
+</view>
+<view wx:for="{{location5}}" class="line">当前在排人数：{{item.location5}}</view>
+</view>
+
+
+
+<view class="container">
+<view class="number">NO.6</view>
+<button bindtap="duandaoduan" class="duandaoduan">查看温度</button>
+<view class="container1">
+<button bindtap="location6" class="location">reserve</button>
+<button bindtap="cancel6" class="cancel" >cancel</button>
+</view>
+<view wx:for="{{location6}}" class="line">当前在排人数：{{item.location6}}</view>
+</view>
+
+
+
+
+
+
+

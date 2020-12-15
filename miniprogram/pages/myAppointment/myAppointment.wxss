@@ -1,0 +1,23 @@
+/* miniprogram/pages/myAppointment/myAppointment.wxss */
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size:100% 100%;
+  z-index: -1;
+}
+.jiankang{
+  border:1px solid#3e4246!important;
+  border-radius:10px;
+  background-color:white;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-family:STXinwei;
+  font-size:50rpx!important;
+  height:100rpx;
+  width:700rpx
+   }
+   .tishi{
+    align-items: center;
+    font-family:STXingkai
+   }
