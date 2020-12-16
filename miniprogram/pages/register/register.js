@@ -54,6 +54,9 @@ console.log('注册成功',res)
 wx.showToast({
   title:'注册成功'
 })
+   wx.navigateTo({
+  url:'/pages/login/login'
+})
 
   },
   fail(res){
